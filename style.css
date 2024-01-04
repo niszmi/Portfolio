@@ -1,0 +1,175 @@
+/* Basic styling for the body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: white;
+    line-height: 2.0;
+    padding: 0 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Styling for the navigation bar */
+nav {
+    /* Basic styling for the nav bar */
+    background-color: white; /* Or any color you prefer */
+    padding: 10px 0; /* Adjust as needed */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Or any color you prefer */
+}
+
+/* Header styling */
+header {
+    background-color: #f5f5dc;
+    color: black;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic {
+    max-width: 150px;
+    margin-right: 20px;
+    border-radius: 50%; /* Makes the image round */
+}
+
+/* Styling for each section */
+section {
+    margin-bottom: 40px;
+
+}
+
+/* About Me Section Styling */
+#about-me {
+    /* Center the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+#about-me h2 {
+    /* Style for the heading */
+}
+
+#about-me p {
+    /* Set a maximum width for the paragraph */
+    max-width: 600px; /* Adjust as needed */
+    /* Optional: Center the paragraph if the section is wider */
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* About Me Section Styling */
+#projects {
+    /* Center the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+#projects h2 {
+    /* Style for the heading */
+}
+
+#projects p {
+    /* Set a maximum width for the paragraph */
+    max-width: 600px; /* Adjust as needed */
+    /* Optional: Center the paragraph if the section is wider */
+    margin: 0 auto;
+    text-align: justify;
+}
+
+
+/* Styling for projects */
+.project {
+    margin-bottom: 20px;
+    /* Center-aligns content inside the .project container */
+        text-align: center;
+}
+
+.figma-button {
+    display: inline-block;
+    padding: 8px 10px; /* Adjust padding as needed, first - top bottom */
+    background-color: #964B00; /* Figma brand color, or choose your own */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 8px; /* Rounded corners for a 'cute' look */
+    font-weight: bold; /* Optional: makes text bold */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    align-items: center;
+}
+
+.figma-button:hover {
+    background-color: #9F8C76; /* Darker shade for hover effect */
+}
+
+/* Ensures images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styling for horizontal rule */
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    margin-top: 40px;
+}
+
+.centered-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0 auto; /* Centers the list in the page */
+    max-width: 600px; /* Maximum width of the list */
+    text-align: left; /* Aligns text to the left */
+}
+
+.centered-list li {
+    /* Additional styling for list items if needed */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+
+.skill-name {
+    display: inline-block;
+    width: 180px; /* Adjust this width based on your longest skill name */
+    margin-right: 10px;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    font-size: 0.8em;
+}
